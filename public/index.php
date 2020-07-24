@@ -5,11 +5,21 @@ require_once("../include/db.php");
 require_once("../include/header.php");
 
 ?>
+<div class="d-flex mr-4">
+    <a href="login.php" class="btn btn-primary active ml-auto mb-1" >Login</a>
+</div>
 
 <?php
-    require_once("../include/navigation.php");
 
+
+if( isset( $_GET["cafe"] ) ){
+    $cafe_name=$_GET["cafe"];
+}
+
+    require_once("../include/navigation.php");
 ?>
+
+
 
 
 
