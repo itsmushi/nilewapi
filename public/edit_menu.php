@@ -2,7 +2,7 @@
 session_start();
 require_once("../include/functions.php");
 require_once("../include/db.php");
-
+check_login();
 require_once("../include/header.php");
 
 ?>

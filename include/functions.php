@@ -18,6 +18,12 @@ function is_even($num){
   }
 }
 
+function check_login(){
+  if(!isset($_SESSION["admin_name"]) ){
+    
+    redirect("index.php");
+  }
+}
 
 
   function authenticate_user($username, $password){

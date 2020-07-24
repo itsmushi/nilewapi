@@ -80,4 +80,5 @@ if( password_verify ($password , $hash )){
 ?>
 
 <input type="checkbox" name="available" value="1" checked>
+
                              
